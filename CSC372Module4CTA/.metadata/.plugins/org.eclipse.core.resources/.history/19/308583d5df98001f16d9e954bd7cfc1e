@@ -1,0 +1,15 @@
+package csc372module4CTA;
+
+public class ShapeArray {
+	final double radius = 5.0;
+	final double height = 10.0;
+	
+	
+	Shape newSphere = new Sphere(radius);
+	
+	Shape newCylinder = new Cylinder(radius, height);
+	
+	Shape newCone = new Cone(radius, height);
+	
+	
+}

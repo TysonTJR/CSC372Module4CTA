@@ -1,0 +1,29 @@
+package csc372module4CTA;
+
+public class ShapeArray {
+	final double radius = 5.0;
+	final double height = 10.0;
+	
+	public ShapeArray() {
+	Shape newSphere = new Sphere(radius);
+	
+	Shape newCylinder = new Cylinder(radius, height);
+	
+	Shape newCone = new Cone(radius, height);
+	
+	Shape[] shapeArray = new Shape[3];
+	
+	shapeArray[0] = newSphere;
+	shapeArray[1] = newCylinder;
+	shapeArray[2] = newCone;
+	
+	int i;
+	
+	for(i = 0; i <= 2; i++) {
+		System.out.println(shapeArray[i].toString());
+	}
+	
+	}
+}
+
+

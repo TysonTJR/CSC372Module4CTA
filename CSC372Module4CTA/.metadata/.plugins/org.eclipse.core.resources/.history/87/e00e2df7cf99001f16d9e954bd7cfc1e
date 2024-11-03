@@ -1,0 +1,11 @@
+package csc372module4CTA;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ShapeArray mainArray = new ShapeArray();
+		
+
+	}
+
+}
